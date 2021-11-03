@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationFragment"
+    android:orientation="horizontal"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/notification_marquee"-->
+<!--        android:text="Notification"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="@android:color/holo_red_dark"-->
+<!--        android:textStyle="bold"-->
+<!--        android:singleLine="true"-->
+<!--        android:scrollHorizontally="true"-->
+<!--        android:gravity="center"/>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/notifications_listView"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        />
+
+</LinearLayout>

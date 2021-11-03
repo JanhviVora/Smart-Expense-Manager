@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReportOptionsFragment"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:gravity="center"
+        android:text="@string/select_type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/timelineReportBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Timeline"
+        android:background="@drawable/backgroundcolor"
+        android:layout_margin="15dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/categoriesReportBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Categories"
+        android:background="@drawable/backgroundcolor"
+        android:layout_margin="15dp"
+        android:padding="10dp" />
+
+</LinearLayout>
+

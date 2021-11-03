@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_type">Select Type</string>
+    <string name="incomeRadio">Income</string>
+    <string name="expenseRadio">Expense</string>
+    <string name="Timeline">Timeline</string>
+    <string name="Categories">Categories</string>
+    <string-array name="spinnerTimelineOptions">
+        <item>This Month</item>
+        <item>Last Month</item>
+        <item>All Time</item>
+    </string-array>
+    <string-array name="spinnerTransactionExpenseOptions">
+        <item>Other</item>
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Healthcare</item>
+        <item>Utilities</item>
+        <item>Travel</item>
+        <item>Household</item>
+        <item>Personal</item>
+
+
+    </string-array>
+
+    <string-array name="spinnerTransactionIncomeOptions">
+        <item>Other</item>
+        <item>PayCheck</item>
+        <item>Business</item>
+    </string-array>
+    <string name="title_activity_report_category">ActivityReportCategory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_report_timeline">ActivityReportTimeline</string>
+    <string name="registration">Registration</string>
+    <string name="password">Password:</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="register">Register</string>
+    <string name="email">Email:</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+    
+    <string-array name="years">
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+
+</resources>
